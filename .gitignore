@@ -1,0 +1,32 @@
+# Ignore everything by default
+
+
+# Allow directories so Git can traverse into src
+!**/
+
+# Allow only Java files in src folders
+!src/**/*.java
+
+# Block YAML, XML, properties anywhere
+**/*.yml
+**/*.yaml
+**/*.xml
+**/*.properties
+
+# TMC / IDE / build
+.tmcbeans/
+target/
+build/
+dist/
+out/
+nbproject/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS / logs
+.DS_Store
+Thumbs.db
+*.log
